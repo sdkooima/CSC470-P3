@@ -8,6 +8,11 @@ namespace P3_code
 {
     public class AppUser
     {
+        public AppUser()
+        {
+
+        }
+
         public string UserName;
         public string Password;
         public string FirstName;
