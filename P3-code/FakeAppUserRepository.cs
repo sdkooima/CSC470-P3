@@ -78,17 +78,29 @@ namespace P3_code
 
         public List<AppUser> GetAll()
         {
-
+            return new List<AppUser>(AppUsers.Values);
         }
 
         public void SetAuthentication(string UserName, bool IsAuthenticated)
         {
-
+            foreach(KeyValuePair<int, AppUser> keyValuePair in AppUsers)
+            {
+                if (keyValuePair.Value.UserName == UserName)
+                {
+                    keyValuePair.Value.IsAuthenticated = IsAuthenticated;
+                }
+            }
         }
 
         public AppUser GetByUserName(string UserName)
         {
-
+            foreach(KeyValuePair<int, AppUser> keyValuePair in AppUsers)
+            {
+                if (keyValuePair.Value.UserName == UserName)
+                {
+                    return keyValuePair.Value;
+                }
+            }
         }
     }
 }
