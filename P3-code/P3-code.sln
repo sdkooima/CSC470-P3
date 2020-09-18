@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3-code", "P3-code.csproj", "{14DC68F8-E977-4DB6-9EA9-039140F64E3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestLogin1", "..\UnitTestLogin1\UnitTestLogin1.csproj", "{ED0B9531-166F-4788-A79E-5376F5188955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestLoginFail1", "..\UnitTestLoginFail1\UnitTestLoginFail1.csproj", "{A86F263F-0E4C-4D29-95BD-94496C372D1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{14DC68F8-E977-4DB6-9EA9-039140F64E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DC68F8-E977-4DB6-9EA9-039140F64E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DC68F8-E977-4DB6-9EA9-039140F64E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0B9531-166F-4788-A79E-5376F5188955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0B9531-166F-4788-A79E-5376F5188955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0B9531-166F-4788-A79E-5376F5188955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0B9531-166F-4788-A79E-5376F5188955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86F263F-0E4C-4D29-95BD-94496C372D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86F263F-0E4C-4D29-95BD-94496C372D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86F263F-0E4C-4D29-95BD-94496C372D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86F263F-0E4C-4D29-95BD-94496C372D1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
