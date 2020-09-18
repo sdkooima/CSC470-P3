@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 /// <summary>
 /// Summary description for Class1
@@ -61,6 +62,33 @@ namespace P3_code
             AppUser App;
             bool ignore = AppUsers.TryGetValue(Id, out App);
             return App;
+        }
+
+        public bool Login(string UserName, string Password)
+        {
+            foreach (KeyValuePair<int, AppUser> keyValuePair in AppUsers)
+            {
+                if (keyValuePair.Value.UserName == UserName && keyValuePair.Value.Password == Password)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public List<AppUser> GetAll()
+        {
+
+        }
+
+        public void SetAuthentication(string UserName, bool IsAuthenticated)
+        {
+
+        }
+
+        public AppUser GetByUserName(string UserName)
+        {
+
         }
     }
 }
